@@ -1,11 +1,11 @@
 # AWS-Project
 Configuring a AWS web server to host a web microservice 
 
--	Set up AWS EC2 web server and configure different services through Virtual Hosting and Mysql as DB Host setup
--	Configured DNS and map it with the web server using Elastic IP
+-	Set up AWS EC2 web server and configure different services through Virtual Hosting.
+-	Configured DNS and map it with the web server using Elastic IP.
 -	Uploaded the project over github and pulled the master branch to my server.
 -	Created a website using OMDB API and using tech stack including CSS, JS, Bootstrap, Express, React, Node.JS etc .
--	Tech involved include AWS EC2 Ubuntu image, Elastic IP load balancer, Virtual Hosting through ApacheV2, Confd Configuration, Version Control, DNS Config and full stack for microservice
+-	Tech involved include AWS EC2 Ubuntu image, Elastic IP load balancer, Virtual Hosting through ApacheV2, Confd Configuration, Version Control, DNS Config and full stack for microservice.
 -	This project is uploaded on the own personal web server and will be live over the domain name - www.shanmukhasrinivas.in 
 
 # Getting started with NodeJS
@@ -115,45 +115,3 @@ getUsersNamefromServer(function(userName) {
 2. Promises -> You have to do a .then() -> Axios has this syntax
 3. async/await -> Cleaner syntax over promises -> Even newer might have this syntax
 4. Rxjs
-
-
-# React
-
-React has two ways of defining components
-
-1. Class method ( older way ) 
-2. Function method ( newer way ) -> We will be following this
-  - Name of function is name of component
-
-## Advantages of Function Component
-
-1. React Hooks work with function components.
-2. Promotes functional style of programming.
-
-## JSX Intro
-
-1. JSX is like HTML
-2. You can use custom components as html tag names.
-3. JSX has a single top level component
-4. Within js -> Functions can return jsx
-5. Within jsx -> Anything within curly braces is javascript {'javascript stuff here'}
-
-## Multiple ways to export from a JS file (module)
-
-1. export default
-2. Module.exports
-- [https://www.sitepoint.com/understanding-module-exports-exports-node-js/](https://www.sitepoint.com/understanding-module-exports-exports-node-js/)
-
-## Two modes of data transfer
-
-1. Parent child data transfer. ( Via props in React. Via @Input/@Output in Angular )
-2. Via some kind of data store that can be shared across components. ( Reduc or Custom React Hook. In Angular Services )
-
-## Change Detection
-
-- AngularJS runs a digest cycle. So it knows what has updated. Hence extra overhead.
-- In react, react has to be told what is updated.
-- Anytime state changes in a parent, all children re rendered
-
-## Example on button to increment counter
-- [./omdb-ui/src/pages/HomePage/HomePage.js](./omdb-ui/src/pages/HomePage/HomePage.js)
