@@ -8,7 +8,7 @@ if (config.error) { throw config.error }
  */
 
 var app = require('../app');
-var debug = require('debug')('app-server:server');
+var debug = require('debug')('omdb-backend:server');
 var http = require('http');
 
 /**

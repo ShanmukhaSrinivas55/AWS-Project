@@ -19,8 +19,7 @@ function App() {
         <Switch>
           <Route path="/search" component={SearchPage} />
           <Route path="/details/:imdbID" component={DetailsPage} />
-          <Route path="/" component={HomePage} />
-          <Redirect to = "/search" />
+          <Route path="/*" component={SearchPage} />
         </Switch>
       </Router>
     </div>
