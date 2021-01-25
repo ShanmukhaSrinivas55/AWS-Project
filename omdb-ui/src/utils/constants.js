@@ -1,5 +1,5 @@
 
-const baseUrl = '/';
+const baseUrl = '/search';
 const axiosHeaders = {
 	headers: {
 	  'Access-Control-Allow-Origin': '*',
