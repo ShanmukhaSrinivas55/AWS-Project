@@ -7,7 +7,7 @@ import {
 import './App.css';
 import SearchPage from './pages/SearchPage/SearchPage';
 import DetailsPage from './pages/DetailsPage/DetailsPage';
-import HomePage from './pages/HomePage/HomePage';
+//import HomePage from './pages/HomePage/HomePage';
 
 /**
  * The Router maps a url to a component
