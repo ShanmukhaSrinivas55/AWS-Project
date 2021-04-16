@@ -3,8 +3,8 @@ const router = express.Router();
 
 const axios = require('axios');
 
-const OMDB_API_KEY = process.env.OMDB_API_KEY;
-const OMDB_URL = process.env.OMDB_URL;
+const OMDB_API_KEY = process.env.REACT_APP_OMDB_API_KEY;
+const OMDB_URL = process.env.REACT_APP_OMDB_URL;
 
 /* Hello World */
 router.get('/', function(req, res, next) {
